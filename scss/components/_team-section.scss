@@ -1,36 +1,38 @@
 /*Наша команда*/
-.team__section{
+.team{
     background-color: var(--color-backround);
+
+    &__photo{
+        display: flex;
+        gap: 30px;
+    }
+    &__card{
+        background-color:var(--color-white);
+        list-style: none; 
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+    &__title{
+        padding: 30px 0;
+    }
+    &__name{
+        color: var(--color-title);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+    }
+    &__paragraph{
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 16;
+    }
  }
- .team__photo{
-     display: flex;
-     gap: 30px;
- }
- .team__card{
-     background-color:var(--color-white);
-     list-style: none; 
-     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-     border-radius: 0px 0px 4px 4px;
- }
- .team__title{
-     padding: 30px 0;
- }
- .team__name{
-     color: var(--color-title);
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.18;
-     text-align: center;
-     letter-spacing: 0.03em;
-     margin-bottom: 10px;
- }
- .team__paragraph{
-     font-size: 16px;
-     line-height: 1.18;
-     text-align: center;
-     letter-spacing: 0.03em;
-     margin-bottom: 16;
- }
+ 
  .socials-list{
      display: flex;
      align-items: center;

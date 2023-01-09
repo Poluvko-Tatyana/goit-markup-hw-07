@@ -5,7 +5,8 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-}
-.logotype-web{
-    color: var(--color-button-nav);
+
+    &-web{
+        color: var(--color-button-nav);
+    }
 }
