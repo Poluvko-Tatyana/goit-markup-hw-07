@@ -1,0 +1,85 @@
+/*Хедер*/
+
+.heder__border-container{
+    border-bottom: 1px solid;
+    border-bottom-color: var(--color-border-heder);
+    background-color: var(--color-white);
+}
+
+.heder__link{
+    position: relative;
+    color: var(--color-title);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.06;
+    letter-spacing: 0.02em;
+    list-style: none;
+    padding-bottom: 32px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.heder__link:hover,
+.heder__link:focus {
+    color: var(--color-button-nav);
+}
+.heder__link--current{
+    color: var(--color-button-nav);
+}
+.heder__link--current::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--color-button-nav);
+    border-radius: 2px;
+}
+
+.heder__text{
+    color: var(--color-text-paragraph);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    fill: var(--color-text-paragraph);
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.heder__text:hover,
+.heder__text:focus{
+    color: var(--color-button-nav);
+    fill: var(--color-button-nav);
+}
+
+.heder__conteiner{
+    display: flex;
+    align-items: center;
+    padding: 24px 0 25px 0;
+}
+
+.heder__nav{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.heder__address{
+    display: flex;
+    gap: 30px;
+    margin-left: 308px;
+    align-items: center;
+}
+
+.hedre__menu{
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+}

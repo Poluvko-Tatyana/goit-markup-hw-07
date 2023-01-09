@@ -1,0 +1,35 @@
+/*Наші переваги*/
+.advantages{
+    display: flex;
+    gap: 30px;
+}
+
+.advantages__title{
+    flex-basis: calc((100% - 90px) / 4);
+    
+}
+.advantages__icon{
+    width: 270px;
+    height: 120px;
+    background-color: var(--color-backround);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.advantages__heading{
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom:  10px;
+}
+.advantages__paragraph{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-bottom: 0 ;
+}
