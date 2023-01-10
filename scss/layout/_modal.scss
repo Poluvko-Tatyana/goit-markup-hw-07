@@ -26,18 +26,21 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px;
-}
-.is-hidden .modal{
-    transform: translate(-50%, -50%) scale(50%);
+
+    &-button{
+        position: absolute;
+        right: 8px;
+        top:8px;
+    }
 }
 
 .is-hidden{
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-}
-.modal-button{
-    position: absolute;
-    right: 8px;
-    top:8px;
+
+    & .modal{
+        transform: translate(-50%, -50%) scale(50%);
+    }
+    
 }

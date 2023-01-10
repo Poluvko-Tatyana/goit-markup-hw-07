@@ -800,10 +800,10 @@ p {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px;
 }
-
-.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(50%);
-          transform: translate(-50%, -50%) scale(50%);
+.modal-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
 }
 
 .is-hidden {
@@ -811,11 +811,9 @@ p {
   pointer-events: none;
   visibility: hidden;
 }
-
-.modal-button {
-  position: absolute;
-  right: 8px;
-  top: 8px;
+.is-hidden .modal {
+  -webkit-transform: translate(-50%, -50%) scale(50%);
+          transform: translate(-50%, -50%) scale(50%);
 }
 
 /* Форма */
