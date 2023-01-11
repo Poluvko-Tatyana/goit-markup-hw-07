@@ -16,6 +16,7 @@
     }
     &__box-imeges{
         display: block;
+        text-decoration: none;
         background-color: var(--color-white);
         transition-property: border, box-shadow;
         transition-duration: 250ms;

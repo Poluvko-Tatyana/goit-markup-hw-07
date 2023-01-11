@@ -430,6 +430,7 @@ p {
 }
 .portfolio__box-imeges {
   display: block;
+  text-decoration: none;
   background-color: var(--color-white);
   -webkit-transition-property: border, -webkit-box-shadow;
   transition-property: border, -webkit-box-shadow;
@@ -866,6 +867,12 @@ p {
   left: 12px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  -webkit-transition-property: fill;
+  transition-property: fill;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form__field-textarea {
   width: 100%;
