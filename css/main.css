@@ -490,6 +490,7 @@ p {
   margin-bottom: 4px;
 }
 .portfolio__paragraph {
+  color: var(--color-text-paragraph);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
